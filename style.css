@@ -1,0 +1,80 @@
+*{
+    background-color:#D5C7BC;
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-color: #d1c0b2;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #664030;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: white;
+    min-height: 30vh;
+    width:35vw;
+  }
+  h1{
+    min-height: 10vh;
+    width:100vw;
+    position: absolute;
+    top:0;
+    background-color: #664030;
+    text-align: center;
+    padding-top: 1rem;
+    font-style: oblique;
+    color: aliceblue;
+  }
+  #advice{
+    min-height: 15vh;
+    color:whitesmoke;
+   background-color:#664030;
+   font-size: 1.5rem;
+  }
+
+  #btn{
+    margin-top: 10vh;
+    height: 2.5rem;
+    width: 7rem;
+    background-color:#D5C7BC;
+    color:whitesmoke;
+    border-radius: 0.5rem;
+    border: none;
+  }
+  #resetbtn{
+    height: 2rem;
+    width: 3.5rem;
+    background-color:#664030;
+    color:whitesmoke;
+    border-radius: 0.5rem;
+    border: none;
+    position: absolute;
+    top: 75vh;
+    left: 35vw;
+  }
+
+  #tweet{
+    height: 2rem;
+    width: 3.5rem;
+    background-color:#664030;
+    color:whitesmoke;
+    border-radius: 0.5rem;
+    border: none;
+    position: absolute;
+    top: 75vh;
+    right: 35vw;
+
+  }
+
+  button:hover {
+    opacity: 0.6;
+  }
