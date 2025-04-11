@@ -30,4 +30,12 @@ const getadvice = () => {
     advice.innerHTML = "Some Random Advice"; // or your default message
     btn.style.display = "inline-block";      // show Get Advice button
   });
+
+function updateDateTime() {
+    const now = new Date();
+    const formatted = now.toLocaleString();
+    document.getElementById("datetime").textContent = formatted;
+  }
+  setInterval(updateDateTime, 1000);
+  updateDateTime();
   
